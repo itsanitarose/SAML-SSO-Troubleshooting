@@ -1,3 +1,4 @@
+# SAML & SSO Troubleshooting
 
 ## 🎫 The Ticket
 
