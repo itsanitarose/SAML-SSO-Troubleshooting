@@ -107,6 +107,8 @@ Next, I want to reproduce the SAML configuration in my Entra ID lab and test the
 
 ---
 
-[← Week 4: MFA Recovery & Identity Verification](https://github.com/itsanitarose/IAM-Social-Engineering-MFA-Recovery) · [All Case Studies](https://github.com/itsanitarose/IAM-Case-Studies)
+
+[← Week 4: MFA Recovery & Identity Verification](https://github.com/itsanitarose/IAM-Social-Engineering-MFA-Recovery) · [All Case Studies](https://github.com/itsanitarose/IAM-Case-Studies) · [Week 6: Role Redesign →](https://github.com/itsanitarose/RBAC-Role-Redesign)
 
 *Northwind Health is fictional. This is independent work; no production systems were changed.*
+
