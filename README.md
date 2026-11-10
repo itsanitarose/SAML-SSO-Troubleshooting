@@ -27,22 +27,22 @@ The challenge isn’t just getting people signed in with the right access. It’
 
 <BR>
 
-## The Investigation
 
-The supporting information showed three different problems, so I needed to understand where each one occurred before deciding what to fix.
+## The Investigation
 
 Three questions guided my investigation:
 
-### 1. Where does the sign-in process break?
+### 1. Where and why does the sign-in process break?
 
-I looked at what worked, where the error appeared and what each system expected.
+I looked at what worked, where the errors appeared and what each system expected.
 
-### 2. Is this an authentication problem or an access problem?
+### 2. Which problems affect access, and which create security risks?
 
-I wanted to separate problems that prevent someone from signing in from those that could give someone the wrong permissions.
+I considered the impact of the failures and whether any users were receiving permissions beyond their roles.
 
-### 3. What needs attention first?
+### 3. How do we meet the launch deadline without compromising security?
 
-With the launch scheduled for tomorrow, I needed to consider the impact on users, business operations and security risks before recommending a fix order.
+I considered the impact on users, business operations and security, including the temporary workaround, before deciding what needed attention first.
+
 
 
