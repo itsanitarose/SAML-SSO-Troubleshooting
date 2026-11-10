@@ -44,5 +44,21 @@ I considered the impact of the failures and whether any users were receiving per
 
 I considered the impact on users, business operations and security, including the temporary workaround, before deciding what needed attention first.
 
+<br>
+
+
+## What I Found
+
+The three SSO problems had different causes.
+
+| Problem | Root Cause | Impact |
+|---|---|---|
+| Invalid audience | A trailing slash caused the SAML audience identifiers to differ. | Users were blocked from accessing the Billing application. |
+| No matching account | Entra ID sent UPNs, while the application expected email addresses. | Sam and six colleagues couldn't access their accounts. |
+| Incorrect Admin access | The application assigned Admin based on group names containing `Billing`. | Lena could see the Admin menu despite being a Billing Clerk. |
+
+The first two problems prevented legitimate access. **Lena's case raised a different concern: someone might have more access than their role allows.**
+
+[Explore the findings and root causes](Document/02.%20Findings%20%26%20Root%20Causes.md).
 
 
