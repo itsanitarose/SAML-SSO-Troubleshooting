@@ -103,6 +103,9 @@ Next, I want to reproduce the SAML configuration in my Entra ID lab and test the
 | [03. Fix Order & Verification Plan](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md) | Fix order, how each fix is tested, security assessment and launch recommendation |
 | [04. Digging Deeper](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/04.%20Digging%20Deeper.md) | Why one trailing slash breaks sign-in |
 
+<br>
+
+---
 
 [← Week 4: MFA Recovery & Identity Verification](https://github.com/itsanitarose/IAM-Social-Engineering-MFA-Recovery) · [All Case Studies](https://github.com/itsanitarose/IAM-Case-Studies)
 
