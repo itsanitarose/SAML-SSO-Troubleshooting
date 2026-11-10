@@ -62,4 +62,48 @@ The first two problems blocked legitimate access. The third raised a security co
 
 [Explore the findings and root causes](Document/02.%20Findings%20%26%20Root%20Causes.md).
 
+<BR>
 
+
+
+
+## Decisions & Recommendations
+
+My first security priority was Lena's potential Admin access. I recommended verifying her permissions, reviewing privileged activity and containing any excessive access identified.
+
+The audience mismatch was the first technical fix because it affected everyone and needed correcting to allow proper testing. The identity-mapping issue would follow.
+
+With launch approaching, I recommended delaying it until the fixes were verified. If the issues couldn't be resolved before launch, I'd present the unresolved risks, their potential impact on Billing operations and my recommendation to delay, leaving the final go-live decision to the responsible decision maker.
+
+[Explore the fix order and verification plan](Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md)
+
+<BR>
+
+
+## Reflection & Next Steps
+
+This investigation reinforced the difference between authentication and authorization, and why both must be checked separately. Authentication confirms who a user is: Sam authenticates successfully at Entra ID, but the application cannot match his identity to an account. Authorization determines what an authenticated user may do: Lena signs in successfully, but the application may give her access beyond her role.
+
+Both problems looked like "SSO is broken," but they required completely different fixes: one in identity mapping, the other in role assignment. Neither could be safely solved by simply making sign-in work.
+
+I also learned to distinguish **security urgency from technical dependency**. The most serious concern isn't always the first configuration change needed to make testing possible.
+
+Next, I want to reproduce the SAML configuration in my Entra ID lab and test the behaviour myself.
+
+<BR>
+
+---
+
+## Explore the Investigation
+
+| Document | What's Inside |
+| :--- | :--- |
+| [01. Source Data](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/01.%20Source%20Data.md) | The ticket, SSO configuration and testing details |
+| [02. Findings & Root Causes](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/02.%20Findings%20%26%20Root%20Causes.md) | What doesn't match, between which settings, and which side to change |
+| [03. Fix Order & Verification Plan](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md) | Fix order, how each fix is tested, security assessment and launch recommendation |
+| [04. Digging Deeper](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/04.%20Digging%20Deeper.md) | Why one trailing slash breaks sign-in |
+
+
+[← Week 4: MFA Recovery & Identity Verification](https://github.com/itsanitarose/IAM-Social-Engineering-MFA-Recovery) · [All Case Studies](https://github.com/itsanitarose/IAM-Case-Studies)
+
+*Northwind Health is fictional. This is independent work; no production systems were changed.*
