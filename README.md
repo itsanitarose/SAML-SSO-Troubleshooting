@@ -94,14 +94,15 @@ Next, I want to reproduce the SAML configuration in my Entra ID lab and test the
 
 ---
 
+
 ## Explore the Investigation
 
 | Document | What's Inside |
-| :--- | :--- |
-| [01. Source Data](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/01.%20Source%20Data.md) | The ticket, SSO configuration and testing details |
-| [02. Findings & Root Causes](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/02.%20Findings%20%26%20Root%20Causes.md) | What doesn't match, between which settings, and which side to change |
-| [03. Fix Order & Verification Plan](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md) | Fix order, how each fix is tested, security assessment and launch recommendation |
-| [04. Digging Deeper](https://github.com/itsanitarose/SAML-SSO-Troubleshooting/blob/main/Document/04.%20Digging%20Deeper.md) | Why one trailing slash breaks sign-in |
+|---|---|
+| [01. Source Data](Document/01.%20Source%20Data.md) | The ticket, SSO configuration and testing details |
+| [02. Findings & Root Causes](Document/02.%20Findings%20%26%20Root%20Causes.md) | What doesn't match, between which settings, and which side to change |
+| [03. Fix Order & Verification](Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md) | Fix order, how each fix is tested, security assessment and launch recommendation |
+| [04. Digging Deeper](Document/04.%20Digging%20Deeper.md) | Why one trailing slash breaks sign-in |
 
 <br>
 
