@@ -26,7 +26,7 @@ This map links IAM Analyst job requirements to the work completed in this case s
 
 - **Microsoft Entra ID:** Configuring and testing SAML SSO in a lab environment.
 - **PowerShell and Microsoft Graph:** Exploring user attributes, group membership and application assignments.
-- **SSO Troubleshooting:** Testing authentication, identity matching and application access.
+
 
 ---
 
