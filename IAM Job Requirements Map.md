@@ -2,7 +2,7 @@
 
 # IAM Skills Map
 
-**Northwind Health | IAM: The SSO Go-Live**
+**Northwind Health | SAML-SSO-Troubleshooting
 
 This map links IAM Analyst job requirements to the work completed in this case study.
 
