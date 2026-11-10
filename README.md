@@ -14,15 +14,16 @@ My manager writes:
 
 <BR>
 
+
 ## What's the Risk?
 
-Looking at the supporting information, two things concern me: employees who need access might be unable to do their jobs, while someone else might receive more access than they should.
+Looking at the supporting information, three things concern me.
 
-The first could disrupt Billing operations. The second is a security concern, particularly if someone can perform administrative actions beyond their responsibilities.
+Employees who need access might be unable to do their jobs, potentially disrupting Billing operations. Meanwhile, someone else might receive more access than their responsibilities allow, creating a security risk.
 
-There's also a temporary workaround in place to keep testing moving, which needs to be reviewed before launch.
+But there's another concern: **the pressure to launch tomorrow.** A temporary workaround is already in place to keep testing moving. What happens when getting the application working feels more important than making sure it’s secure?
 
-**Getting people signed in isn't enough. They also need to have the right level of access.**
+The challenge isn’t just getting people signed in with the right access. It’s making that happen without easing up on security checks along the way.
 
 <BR>
 
