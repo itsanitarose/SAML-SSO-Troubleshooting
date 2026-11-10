@@ -47,17 +47,18 @@ I considered the impact on users, business operations and security, including th
 <br>
 
 
+
 ## What I Found
 
-The three SSO problems had different causes.
+I identified three configuration problems affecting the Billing application's SSO launch.
 
-| Problem | Root Cause | Impact |
-|---|---|---|
-| Invalid audience | A trailing slash caused the SAML audience identifiers to differ. | Users were blocked from accessing the Billing application. |
-| No matching account | Entra ID sent UPNs, while the application expected email addresses. | Sam and six colleagues couldn't access their accounts. |
-| Incorrect Admin access | The application assigned Admin based on group names containing `Billing`. | Lena could see the Admin menu despite being a Billing Clerk. |
+| Problem | Finding |
+|---|---|
+| **Audience validation failure** | A trailing slash caused the audience identifiers to differ, preventing users from accessing the application. |
+| **Identity mapping failure** | Entra ID sent UPNs that didn't match the email addresses expected by the application, affecting Sam and six colleagues. |
+| **Incorrect Admin role assignment** | A broad group-matching rule included `Billing-Readers`, allowing Lena to see the Admin menu. |
 
-The first two problems prevented legitimate access. **Lena's case raised a different concern: someone might have more access than their role allows.**
+The first two problems blocked legitimate access. The third raised a security concern: Lena appeared to have access beyond her role, although her ability to perform administrative actions still needed verification.
 
 [Explore the findings and root causes](Document/02.%20Findings%20%26%20Root%20Causes.md).
 
