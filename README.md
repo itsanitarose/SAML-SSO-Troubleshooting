@@ -10,7 +10,9 @@ My manager writes:
 
 <BR>
 
-**Supporting information:** [SSO configuration and testing details](Document/01.%20Source%20Data.md)
+
+**Supporting Information:** [SSO Configuration & Testing Details](Document/01.%20SSO%20Configuration%20%26%20Testing%20Details.md)
+
 
 <BR>
 
@@ -60,7 +62,7 @@ I identified three configuration problems affecting the Billing application's SS
 
 The first two problems blocked legitimate access. The third raised a security concern: Lena appeared to have access beyond her role, although her ability to perform administrative actions still needed verification.
 
-[Explore the findings and root causes](Document/02.%20Findings%20%26%20Root%20Causes.md).
+**Supporting Information:** [SSO Configuration & Testing Details](Document/01.%20SSO%20Configuration%20%26%20Testing%20Details.md)
 
 <BR>
 
@@ -99,10 +101,12 @@ Next, I want to reproduce the SAML configuration in my Entra ID lab and test the
 
 | Document | What's Inside |
 |---|---|
-| [01. Source Data](Document/01.%20Source%20Data.md) | The ticket, SSO configuration and testing details |
-| [02. Findings & Root Causes](Document/02.%20Findings%20%26%20Root%20Causes.md) | What doesn't match, between which settings, and which side to change |
-| [03. Fix Order & Verification](Document/03.%20Fix%20Order%20%26%20Verification%20Plan.md) | Fix order, how each fix is tested, security assessment and launch recommendation |
-| [04. Digging Deeper](Document/04.%20Digging%20Deeper.md) | Why one trailing slash breaks sign-in |
+| [01. SSO Configuration & Testing Details](Document/01.%20SSO%20Configuration%20%26%20Testing%20Details.md) | Original ticket, SSO configuration and testing results |
+| [02. Findings & Root Causes](Document/02.%20Findings%20%26%20Root%20Causes.md) | Authentication failures, root causes and required fixes |
+| [03. Fix Order & Verification](Document/03.%20Fix%20Order%20%26%20Verification.md) | Fix order, testing steps, security review and launch recommendation |
+| [04. Digging Deeper](Document/04.%20Digging%20Deeper.md) | Why the trailing slash caused sign-in to fail |
+
+
 
 <br>
 
