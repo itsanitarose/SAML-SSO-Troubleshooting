@@ -13,6 +13,30 @@ My manager writes:
 
 **Supporting Information:** [SSO Configuration & Testing Details](Document/01.%20SSO%20Configuration%20%26%20Testing%20Details.md)
 
+<BR>
+
+
+<table>
+<tr>
+<td>
+
+**🛡️ Decision**
+
+**Delay the SSO launch until all three issues are resolved and tested.**
+
+An incorrect audience value prevents sign-in, while an identity-mapping problem affects seven users.
+
+A separate group-mapping issue may give Lena administrator access beyond her role.
+
+I recommended checking Lena's permissions first, correcting the two sign-in problems and testing the changes before launch.
+
+The proposed fixes have not yet been implemented or tested.
+
+**Supporting evidence:** [Findings & Root Causes](Document/02.%20Findings%20%26%20Root%20Causes.md)
+
+</td>
+</tr>
+</table>
 
 <BR>
 
